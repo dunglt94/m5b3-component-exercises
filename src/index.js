@@ -6,6 +6,7 @@ import App from './App';
 import Calculator from "./components/Calculator";
 import StudentInfo from "./components/StudentInfo";
 import ExpandCollapse from "./components/ExpandCollapse";
+import TodoApp from "./components/TodoApp";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,4 +26,9 @@ root3.render(
 const root4 = ReactDOM.createRoot(document.getElementById('root4'));
 root4.render(
     <ExpandCollapse />
+);
+
+const root5 = ReactDOM.createRoot(document.getElementById('root5'));
+root5.render(
+    <TodoApp />
 );
